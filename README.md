@@ -22,7 +22,7 @@ Erstelle die enviroment mittles der **yml Datei** (Conda Nutzer). Die erste Zeil
 
 `conda env create -f environment.yml`
 
-Oder der der **txt datei** (conda oder pip user):
+Oder der der **txt Datei** (conda oder pip user):
 
 conda: `conda create --name <env_name> --file <.txt file>`
 
@@ -40,8 +40,12 @@ code zum bearbeiten z.B. mit *Spyder* öffnen (ist mit installiert).
 > MTCNN.py 
 
  pyhton code der den MTCNN classifier verwendet um Gesichter zuverlässig zu erkennen.
- Erkannte gesicher werden gezält und der Mittlewert ausgegeben.
- Der video output kann in * Zeile 22 * mit True oder False an oder ausgestellt werden (speedup)
+ Erkannte gesicher werden gezählt und der Mittlewert ausgegeben.
+ Der video output kann in * Zeile 22 * mit True oder False an oder ausgestellt werden (speedup).
+ Der Klassifizierer gibt Informationen zur Gesichts-Box mit Nase, Mund und Augen als Keypoints zurück. Neben den Koordinaten wird auch die Confidence zurückgegeben. In dem hier vorliegendem Beispiel wir aber nur der Rückgabewert der Gesichts-Box verwendet.  
+ 
+ Weitere infos zum MTCNN:
+ https://github.com/ipazc/mtcnn 
  
   > mtcnn-env.yml
   
