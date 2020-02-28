@@ -37,7 +37,7 @@ code zum bearbeiten z.B. mit *Spyder* öffnen (ist mit installiert).
 
 
 **--Erläuterung Dateien:**
-> Hale-MTCNN.py 
+> MTCNN.py 
 
  pyhton code der den MTCNN classifier verwendet um Gesichter zuverlässig zu erkennen.
  Erkannte gesicher werden gezält und der Mittlewert ausgegeben.
