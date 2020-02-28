@@ -16,9 +16,9 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 **Erstelle Enviroment**
 
-Folgend können Sie eine enviroment aufsetzten mittels der *.yml Datei (Für Conda Nutzer). Die Python module werden mit der *.txt Datei erstellt Die enviroment enthält dann allen benötigten Modulen.
+Folgend können Sie eine enviroment aufsetzten mittels der *.yml Datei (Für Conda Nutzer) oder der *. txt Datei (Coda und pip Nutzer). Die enviroment enthält dann allen benötigten Modulen.
 
-Erstelle die enviroment mittles der **yml Datei** (Conda Nutzer). Die erste Zeiel ist der enviroment name. Kann natürlich vorher geändert werden:
+Erstelle die enviroment mittles der **yml Datei** (Conda Nutzer). Die erste Zeile ist der enviroment Name. Kann natürlich vorher geändert werden:
 
 `conda env create -f environment.yml`
 
